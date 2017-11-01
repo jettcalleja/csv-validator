@@ -20,7 +20,7 @@ npm install csv-validator --save
 
 Without errors:
 
-```
+```javascript
 /** csv file
 name,phone,email,country
 john,123,john@ph.com,PH
@@ -42,7 +42,7 @@ csv(csvFilePath, headers)
 
 With error:
 
-```
+```javascript
 /** csv file
 name,phone,email,country
 john,123a,john@ph.com,PH
